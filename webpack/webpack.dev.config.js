@@ -12,8 +12,8 @@ module.exports = merge(baseConfig, {
     overlay: true,
     historyApiFallback: true,
     proxy: {
-      '/qtrade_bond/': {
-        target: 'https://dev.qtrade.com.cn',
+      '/user/': {
+        target: 'https://www.user.com',
         changeOrigin: true,
         secure: false,
       },
